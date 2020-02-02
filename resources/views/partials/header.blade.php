@@ -24,7 +24,7 @@
       <div class="email">
         <figure class="mail-icon"><img src="{{ asset('Frontend/img/master/mail.png')}}" alt=""></figure>
         <h6>Adresse Mail:</h6>
-        <p>info@finnexia.com</p>
+        <p style="font-size:10px;">info@j-blackmotiondesign.com</p>
       </div>
       <div class="phone">
         <figure class="phone-icon"><img src="{{ asset('Frontend/img/master/phone.png')}}" alt=""></figure>
@@ -42,7 +42,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="/">ACCUEIL</a>
@@ -54,11 +54,13 @@
             <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">NOS SERVICES<span class="caret-drop"></span></a>
             <ul class="dropdown-menu">
               <li class="divider-top"></li>
-              <li><a class="dropdown-item" href="/services">All Services</a></li>
+              <li><a class="dropdown-item" href="/services/creation-graphique">Création Graphique</a></li>
               <li class="divider"></li>
-              <li><a class="dropdown-item" href="/services">Business Consulting</a></li>
+              <li><a class="dropdown-item" href="/services/conception-applications">Conception d'Applications</a></li>
               <li class="divider"></li>
-              <li><a class="dropdown-item" href="/services">Investment Advisor</a></li>
+              <li><a class="dropdown-item" href="/services/fournitures-materiels">Fournitures de matériels informatiques</a></li>
+              <li class="divider"></li>
+              <li><a class="dropdown-item" href="/services">Tous les services</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -69,7 +71,7 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-nav" type="submit">Demander une proposition</button>
+          <a class="btn btn-nav" href="/contact">Demander une proposition</a>
         </form>
       </div>
     </nav>

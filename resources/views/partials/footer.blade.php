@@ -5,7 +5,7 @@
         <div class="footer-col">
           <figure class="footer-logo"><a href="index.html"><img src="{{ asset('Frontend/img/logo.jpg')}}" alt=""></a></figure>
           <p>J-BlackMotionDesign est une startup dans le domaine informatique, créé le 01 Janvier 2020. L’entreprise multidisciplinaire se spécialise dans la conception graphique, la conception de sites Internet ...</p>
-          <p><a class="btn btn-custom" href="/about" role="button">LIRE PLUS</a></p>
+          <p><a class="btn btn-custom" href="/qui-sommes-nous" role="button">LIRE PLUS</a></p>
         </div>
       </div>
       <div class="col-lg-4">
@@ -20,7 +20,7 @@
           <div class="location-box location-phone">
             <figure class="bottom-location-icon"><img src="{{ asset('Frontend/img/master/call-footer.png')}}" alt=""></figure>
             <h6>Appellez-nous au:</h6>
-            <p>+ 0511 0000 3322</p>
+            <p>+228 70522340</p>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@
           <div class="newsletter-box">
             <form  action="#" method="post" name="sign-up">
               <input type="email" class="input" id="email" name="email" placeholder="Your email address" required>
-              <input type="submit" class="button" id="submit" value="SIGN UP">
+              <input type="submit" class="button" id="submit" value="SOUSCRIRE">
             </form>
           </div>
           <p class="cursive">Votre mail est en sécurité avec nous, Pas de spam.</p>

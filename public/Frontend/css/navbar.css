@@ -1,9 +1,9 @@
-/* ================== 
-	# NAVBAR.  
+/* ==================
+	# NAVBAR.
    ================== */
 nav .container{
     border-radius: 6px;
-    background: #9BC53D;
+    background: #059fff;
     height: 50px;
     margin: 0px auto;
 }
@@ -16,7 +16,7 @@ nav{
     background: transparent;
     width: 100%;
     top: -30px;
-    position: relative; 
+    position: relative;
     z-index: 2;
 }
 
@@ -43,7 +43,7 @@ nav{
 .navbar{
     background: transparent;
     padding-right: 0px;
-    padding-left: 0px; 
+    padding-left: 0px;
 }
 
 .logo-brand{
@@ -144,7 +144,7 @@ nav{
 .navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus{
     background-image:none;
     color: #fff;
-    background-color: rgba(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.5);
 }
 
 .navbar-toggler:active {
@@ -152,31 +152,31 @@ nav{
     color: #FFF;
 }
 
-@media (max-width:1200px) { 
+@media (max-width:1200px) {
 .main-navbar .container{
     padding: 0px 15px 0px 15px;
 }
-    
+
 }
 
 @media (min-width: 1200px) {
-    
+
 .navbar-toggler-icon {
   background-image: url("../img/master/bars.png");
 }
-    
+
 }
 
 @media (max-width: 992px) {
-    
+
 .logo-brand{
   width: 140px;
 }
-    
+
 nav .container .navbar{
     padding: 34px 0px;
 }
-    
+
 nav{
     top: -33px;
 }
@@ -215,15 +215,15 @@ nav{
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
-    
+
 .nav-link {
   margin: 0px 2px 0px 5px;
 }
-    
+
 }
 
 
-@media (max-width:850px) { 
+@media (max-width:850px) {
 nav .container{
     padding: 0px;
     margin: 0px;
@@ -233,19 +233,19 @@ nav .container{
     height: 100%;
     background: transparent;
 }
-    
+
 nav .container .navbar{
     padding: 0px 5px;
 }
-    
+
 .navbar-brand{
     display: inherit;
 }
-    
+
 .logo-brand{
     width: 150px
 }
-    
+
 .logo-brand img{
     width: 100%;
 }
@@ -255,29 +255,29 @@ nav{
     width: 100%;
     top: 5px;
 }
-    
+
 .navbar{
     padding-right: 15px;
-    padding-left: 25px; 
+    padding-left: 25px;
 }
-    
+
  .logo-brand{
     margin: 5px;
-}   
-      
+}
+
 .logo-brand img{
     width: 100%;
 }
-    
+
 .navbar-toggler-icon {
     background-image: url("../img/master/bars.png");
     transition: 0.3s;
-}  
-       
+}
+
 .navbar-toggler-icon:hover {
     background-image: url("../img/master/bars-hover.png");
-}  
-    
+}
+
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
     box-shadow: none;
@@ -289,17 +289,17 @@ nav{
     font-size: 12px;
     padding-left: 15px;
     margin-top: 4px;
-}  
-    
+}
+
 .navbar-nav > li > a:hover {
     color: #B5E700;
 }
-    
+
 .dropdown-menu{
     margin-top: -16px;
     background: #FFF;
     border: none;
-}    
+}
 .dropdown-menu > li > a {
     color: #595959;
     font-size: 12px;
@@ -323,29 +323,29 @@ nav{
     color: #ccc;
     background-color: transparent;
 }
-    
+
 .navbar-nav > .open > a,
 .navbar-nav > .open > a:hover,
 .navbar-nav > .open > a:focus {
     color: #000;
     background-color: transparent;
 }
-    
+
 .navbar-nav {
     margin-top: 2px;
     background: #FFF;
-} 
+}
 
 .navbar-nav > li {
     float: none;
     border-bottom: 1px solid #eff5f5;
     padding: 3px 10px 3px 5px;
 }
-    
+
 .dropdown-toggle {
     border: none;
 }
-    
+
 .dropdown-menu .divider-top {
   display:inherit;
   height: 1px;
@@ -353,7 +353,7 @@ nav{
   overflow: hidden;
   clear: both;
 }
-    
+
 .open .dropdown-menu {
     position: static;
     float: none;
@@ -364,12 +364,12 @@ nav{
     -webkit-box-shadow: none;
             box-shadow: none;
 }
-    
+
 .caret-drop{
     float: right;
     margin-top: -5px;
 }
-    
+
 .caret-drop:before{
     content: "\f107";
     font-family: FontAwesome;
@@ -378,7 +378,7 @@ nav{
     color: #2C4987;
     font-size: 20px;
 }
-    
+
 .navbar-collapse{
     margin-top: 10px;
 }
@@ -386,8 +386,8 @@ nav{
 .navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus{
     background-image:none;
     color: #fff;
-    background-color: rgba(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.5);
 }
-    
+
 
 }

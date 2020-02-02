@@ -22,6 +22,18 @@ class FrontendController extends Controller
   {
       return view('pages.services');
   }
+  public function servicesCA(Request $request)
+  {
+      return view('pages.services.creation_applications');
+  }
+  public function servicesCG(Request $request)
+  {
+      return view('pages.services.creation_graphique');
+  }
+  public function servicesFM(Request $request)
+  {
+      return view('pages.services.fourniture_materiels');
+  }
   public function realisations(Request $request)
   {
       return view('pages.realisations');

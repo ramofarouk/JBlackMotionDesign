@@ -3,12 +3,11 @@
 Contact
 @endsection
 @section('content')
-<div class="sections-contact">
-  <div class="maps"><iframe src="https://snazzymaps.com/embed/116270" width="100%" height="400px" style="border:none;"></iframe></div>
+<div class="sections-contact" style="background-image: url('/Frontend/img/contact.jpg');">
   <div class="container">
     <div class="pages-title">
       <h1>Contact</h1>
-      <p>Home &nbsp; > &nbsp; Contact</p>
+      <p>Accueil &nbsp; > &nbsp; Contact</p>
     </div>
   </div>
 </div>
@@ -17,50 +16,66 @@ Contact
     <div class="row">
       <div class="col-lg-5 contact-left">
         <div class="contact-information">
-          <h2>Get in Touch</h2>
-          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.</p>
+          <h2>Nous joindre</h2>
+          <p>Laissons-nous un message et nous vous répondrons dans un délai de 24heures.</p>
           <hr class="contact">
-          <p class="address">8273 NW 59th ST Miami, Florida.</p>
-          <p class="phone">+ 0511 0000 3322 22</p>
-          <p class="email">info@finnexia.com</p>
+          <p class="address">Agoè-assiyéyé à côté de l'église des Assembleés de Dieu.</p>
+          <p class="phone">+228 70522340</p>
+          <p class="email">info@j-blackmotiondesign.com</p>
           <hr class="contact">
           <div class="social-contact"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
           <div class="social-contact"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
           <div class="social-contact"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
-          <div class="social-contact"><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></div>
         </div>
       </div>
       <div class="col-lg-7 contact-right">
         <div class="contact-form">
-          <form id="contact-form" method="post" action="http://themesquality.com/templates/finnexia/contact.php">
+          <form method="post" action="">
             <div class="messages"></div>
             <div class="controls">
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-group">
-                    <input id="form_name" type="text" name="name" class="form-control custome-form" placeholder="Name" required="required" data-error="Firstname is required.">
-                    <div class="help-block with-errors"></div>
+                    <input  type="text" name="name" class="form-control custome-form" placeholder="Nom Complet" required="required">
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                    <input id="form_email" type="email" name="email" class="form-control custome-form" placeholder="Email address" required="required" data-error="Valid email is required.">
-                    <div class="help-block with-errors"></div>
+                    <input type="email" name="email" class="form-control custome-form" placeholder="Votre adresse mail" required="required">
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                    <textarea id="form_message" name="message" class="form-control custome-form" placeholder="Your message" rows="3" required="required" data-error="Please,leave us a message."></textarea>
-                    <div class="help-block with-errors"></div>
+                    <input  type="text" name="name" class="form-control custome-form" placeholder="Objet du Message" required="required">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea name="message" class="form-control custome-form" placeholder="Votre message" rows="3" required="required"></textarea>
                   </div>
                 </div>
               </div>
-              <div class="btn-send"><p><input type="submit" class="btn btn-custom btn-custom-small" value="SEND MESSAGE"></p></div>
+              <div class="btn-send"><p><input type="submit" class="btn btn-custom btn-custom-small" value="ENOYER LE MESSAGE"></p></div>
             </div>
           </form>
         </div>
       </div>
     </div>
+    <div class="row">
+      <div id="map" style="width:100%;height:400px;"></div>
+    </div>
   </div>
 </section>
 @endsection
+@section('scripts')
+<script type="text/javascript">
+var map = new L.Map('map', {
+  center: new L.LatLng(6.131944, 1.222778),
+  zoom: 8
+});
+tiles2 =  new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom: 29,});
+map.addLayer(tiles2);
+var point = L.marker([6.183238, 1.240606]).bindPopup('<b>J-BlackMotionDesign</b>');
+map.addLayer(point);
+</script>
+    @endsection

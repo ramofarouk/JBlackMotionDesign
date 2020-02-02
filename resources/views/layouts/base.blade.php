@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="Quickdev">
-  <link rel="shortcut icon" href="{{ asset('Frontend/img/master/favicon.html')}}">
+  <link href="{{ asset('Frontend/img/logo.jpg')}}" rel="shortcut icon">
   <link rel="stylesheet" href="{{ asset('Frontend/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ asset('Frontend/css/navbar.css')}}">
   <link rel="stylesheet" href="{{ asset('Frontend/css/stylesheet.css')}}">
@@ -16,6 +16,13 @@
   <link rel="stylesheet" href="{{ asset('Frontend/fonts/font-awesome/css/font-awesome.min.css')}}">
   <link rel="stylesheet" href="{{ asset('Frontend/css/animate.min.css')}}">
   <script src="{{ asset('Frontend/js/modernizr-custom.js')}}"></script>
+  <link rel="stylesheet" href="{{ asset('Frontend/css/slick.min.css')}}">
+  <link rel="stylesheet" href="{{ asset('Frontend/css/owl.carousel.min.css')}}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+ integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+ crossorigin=""/>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css" />
 </head>
 <body>
   <!-- LOADER -->
@@ -43,7 +50,14 @@
   <script src="{{ asset('Frontend/js/jquery.counterup.js')}}"></script>
   <script src="{{ asset('Frontend/js/flickity.pkgd.min.js')}}"></script>
   <script src="{{ asset('Frontend/js/testimonials.js')}}"></script>
-  @yield('script')
+  <script src="{{ asset('Frontend/js/slick.min.js')}}"></script>
+  <script src="{{ asset('Frontend/js/team.slider.js')}}"></script>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+     crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.6/fuse.min.js"></script>
+  @yield('scripts')
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

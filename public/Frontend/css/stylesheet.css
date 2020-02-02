@@ -14,9 +14,9 @@
 /* ========================================================================== */
 /* ========================================================================== */
 
-/*	
+/*
 
-    1.  RESET.	
+    1.  RESET.
 	2.  TYPOGRAPHY.
 	3.  SPACE AND ALIGMENT.
 	4.  BUTTOMS.
@@ -24,7 +24,7 @@
 	6.  CAROUSEL.
 	7.  HOMEPAGE #1.
 	8.  HOMEPAGE #2.
-	9.  HOMEPAGE #3.			
+	9.  HOMEPAGE #3.
 	10. PAGES STYLES.
 	11. SCROLLING TOP.
 	12. TEAM
@@ -32,14 +32,14 @@
 	14. FILTER GALLERY.
 	15. COUNTER.
 	16. FOOTER.
-		
-*/ 
+
+*/
 
 /* =====================================
    	1. RESET.
    ===================================== */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -52,8 +52,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -63,7 +63,7 @@ time, mark, audio, video {
 	font: inherit;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -78,8 +78,8 @@ html {
   line-height: 1.5;
 }
 
-/* ===================================== 
-	2. TYPOGRAPHY. 
+/* =====================================
+	2. TYPOGRAPHY.
    ===================================== */
 h1, h2, h3, h4, h5, h6, p, ul,ol{
   margin-top: 0;
@@ -150,7 +150,7 @@ a:active {
 }
 
 .inner-color{
-   background: #F9F9F9; 
+   background: #F9F9F9;
    padding: 20px 0px;
 }
 
@@ -179,10 +179,11 @@ a:active {
 
 .btn-custom {
   color: #FFF;
-  background-color: #9BC53D;
+  background-color: #059fff;
+	border-color: #059fff;
   transition: 0.3s;
   padding: 0.24rem 1.122rem;
-  font-size: 0.60rem; 
+  font-size: 0.60rem;
 }
 
 .btn-custom:hover {
@@ -197,8 +198,8 @@ a:active {
 
 .btn-custom.disabled, .btn-custom:disabled {
   color: #fff;
-  background-color: #9BC53D;
-  border-color: #9BC53D;
+  background-color: #059fff;
+  border-color: #059fff;
 }
 
 .btn-custom:not(:disabled):not(.disabled):active, .btn-custom:not(:disabled):not(.disabled).active,
@@ -215,16 +216,17 @@ a:active {
 
 .btn-slider {
   color: #FFF;
-  background-color: #9BC53D;
+  background-color: #059fff;
+	border-color: #059fff;
   transition: 0.3s;
   padding: 0.3rem 1.125rem;
-  font-size: 0.60rem;   
+  font-size: 0.60rem;
 }
 
 .btn-slider:hover {
   color: #FFF;
   background-color: #2c4987;
-  border-color: #2c4987;  
+  border-color: #2c4987;
 }
 
 .btn-slider:focus, .btn-slider.focus {
@@ -233,8 +235,8 @@ a:active {
 
 .btn-slider.disabled, .btn-slider:disabled {
   color: #fff;
-  background-color: #9BC53D;
-  border-color: #9BC53D;
+  background-color: #059fff;
+  border-color: #059fff;
 }
 
 .btn-slider:not(:disabled):not(.disabled):active, .btn-slider:not(:disabled):not(.disabled).active,
@@ -291,7 +293,7 @@ a:active {
    ==================================*/
 .top-header{
     height: 40px;
-    background: #14213D;   
+    background: #14213D;
 }
 
 .top-header .container{
@@ -326,7 +328,7 @@ a:active {
 
 .inner-header-left a:hover {
     text-decoration: none;
-    color: #9BC53D;
+    color: #059fff;
 }
 
 .inner-header-left a:active {
@@ -350,7 +352,7 @@ a:active {
 }
 
 .inner-header-social .fa:hover{
-    color: #9BC53D;
+    color: #059fff;
 }
 
 header{
@@ -457,7 +459,7 @@ figure.brand img{
 }
 
 .carousel-img-1 {
-    background-image:url('../img/images/slider1.jpg');
+    background-image:url('../img/startup.jpg');
     width: 100%;
     height: 100%;
      background-position: center;
@@ -466,7 +468,7 @@ figure.brand img{
 }
 
 .carousel-img-2 {
-    background-image:url('../img/images/slider2.jpg');
+    background-image:url('../img/images/slider3.jpg');
     width: 100%;
     height: 100%;
     background-position: center;
@@ -477,7 +479,27 @@ figure.brand img{
 }
 
 .carousel-img-3 {
-    background-image:url('../img/images/slider3.jpg');
+    background-image:url('../img/graphisme.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.carousel-img-4 {
+    background-image:url('../img/coding2.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.carousel-img-5 {
+    background-image:url('../img/materiels.jpg');
     width: 100%;
     height: 100%;
     background-position: center;
@@ -519,6 +541,26 @@ figure.brand img{
   background-image: linear-gradient(to bottom right, #000, #000);
   opacity: 0.5;
 }
+.carousel-img-4:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #000, #000);
+  opacity: 0.5;
+}
+.carousel-img-5:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #000, #000);
+  opacity: 0.5;
+}
 
 .carousel-indicators {
   position: absolute;
@@ -550,7 +592,7 @@ figure.brand img{
 }
 
 .carousel-indicators .active {
-  background-color: #9BC53D;
+  background-color: #059fff;
 }
 
 .carousel-control-prev,
@@ -580,13 +622,13 @@ figure.brand img{
    	7. HOMEPAGE #1.
    ==================================*/
 .front-section h6{
-    color: #9BC53D;
+    color: #059fff;
     text-transform: uppercase;
 }
 
 hr.left{
 	width: 70px;
-    border-top: 3px solid #9BC53D;
+    border-top: 3px solid #059fff;
     margin: 15px 0px 15px 0px;
 }
 
@@ -618,8 +660,8 @@ hr.left{
 }
 
 .border-icon:hover{
-    border: solid 1px #9BC53D;
-    background: #9BC53D;
+    border: solid 1px #059fff;
+    background: #059fff;
 }
 
 figure.icon-center{
@@ -634,7 +676,7 @@ figure.icon-center{
 }
 
 figure.icon-center img{
-    width: 100%; 
+    width: 100%;
 }
 
 figure.front-pic img{
@@ -645,22 +687,22 @@ image-hover {
 	margin: 15px 15px 0;
 	padding: 0;
 }
-    
+
 .image-hover::after {
 	content: '';
 	clear: both;
 	display: block;
 }
-    
+
 .image-hover .image-box {
 	position: relative;
 	padding: 0;
 }
-    
+
 .image-hover .image-box img {
 	width: 100%;
 }
-    
+
 .image-hover .image-box:first-child {
 	margin-left: 0;
 }
@@ -673,7 +715,7 @@ image-hover {
 	background: #fff;
 	overflow: hidden;
 }
-    
+
 .image-hover ffigure:hover+span {
 	bottom: -36px;
 	opacity: 1;
@@ -685,7 +727,7 @@ image-hover {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-    
+
 .hover-effects figure:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
@@ -700,7 +742,7 @@ image-hover {
 }
 
 .front-thumbnail .box-pic img{
-    width: 100%; 
+    width: 100%;
 }
 
 .front-thumbnail .figure-caption{
@@ -728,8 +770,8 @@ image-hover {
 }
 
 .front-thumbnail:hover .rounded-circle{
-    background: #9BC53D;
-    border: solid 1px #9BC53D;
+    background: #059fff;
+    border: solid 1px #059fff;
 }
 
 .center-circle-icon{
@@ -765,7 +807,7 @@ image-hover {
 .date-label{
     width: auto;
     height: auto;
-    background: #9BC53D;
+    background: #059fff;
     position: absolute;
     color: #FFF;
     padding: 10px 20px;
@@ -786,7 +828,7 @@ image-hover {
 }
 
 .front-blogs .post-caption h5{
-    color: #9BC53D;
+    color: #059fff;
 }
 
 .front-blogs .post-caption a:link {
@@ -814,7 +856,7 @@ image-hover {
     box-shadow: 0 0 10px rgba(204,204,204,0.6);
     -moz-box-shadow: 0 0 10px rgba(204,204,204,0.6);
     -webkit-box-shadow: 0 0 10px rgba(204,204,204,0.6);
-    -o-box-shadow: 0 0 10px rgba(204,204,204,0.6);  
+    -o-box-shadow: 0 0 10px rgba(204,204,204,0.6);
 }
 
 .feed-box{
@@ -840,7 +882,7 @@ image-hover {
 }
 
 .feed-box .post-caption h6{
-    color: #333;   
+    color: #333;
 }
 
 .feed-box .post-caption a:link {
@@ -874,7 +916,7 @@ hr.feed{
    ==================================*/
 .sections{
     background-image: url("../img/images/sections-bg.jpg");
-    height: 400px; 
+    height: 400px;
     margin-top: -55px;
     background-attachment: fixed;
     background-position: center;
@@ -924,7 +966,7 @@ hr.feed{
 
 hr.center{
     width: 80px;
-    border-top: 3px solid #9BC53D;
+    border-top: 3px solid #059fff;
     margin: 15px auto;
 }
 
@@ -949,8 +991,8 @@ hr.center{
 }
 
 .about-services .border-icon:hover{
-    border: solid 1px #9BC53D;
-    background: #9BC53D;
+    border: solid 1px #059fff;
+    background: #059fff;
 }
 
 .about-services figure.icon-center{
@@ -1161,7 +1203,7 @@ aside.services .list-group-item:hover .fa{
 
 .inner-sidebar h5{
     margin-bottom: 20px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 .list-group-item {
@@ -1387,9 +1429,9 @@ aside.services .list-group-item:hover .fa{
     width: 100%;
 }
 
-.careers-parallax{ 
+.careers-parallax{
     background-image: url("../img/images/img7.jpg");
-    height: 100%; 
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1424,7 +1466,7 @@ aside.services .list-group-item:hover .fa{
 
 .benefits h3{
     text-align: center;
-    color: #9BC53D;
+    color: #059fff;
     margin: 15px 0px 10px 0px;
 }
 
@@ -1476,7 +1518,7 @@ aside.services .list-group-item:hover .fa{
 /* ========= ERROR PAGE. ========== */
 .error-page{
     background-image: url("../img/images/img9.jpg");
-    height: 800px; 
+    height: 800px;
     margin-top: -55px;
     background-attachment: fixed;
     background-position: center;
@@ -1510,7 +1552,7 @@ aside.services .list-group-item:hover .fa{
 }
 
 .error-page .middle h4{
-    color: #9BC53D;
+    color: #059fff;
 }
 
 .error-page .middle p {
@@ -1530,7 +1572,7 @@ aside.services .list-group-item:hover .fa{
 
 .table-header{
     height: 160px;
-    background: #9BC53D;
+    background: #059fff;
     padding: 40px 0px;
 }
 
@@ -1567,7 +1609,8 @@ aside.services .list-group-item:hover .fa{
 /* ========= CONTACT. ========== */
 
 .sections-contact{
-    height: 400px; 
+	background-image: url("../img/images/sections-bg.jpg");
+    height: 400px;
     margin-top: -55px;
     background-attachment: fixed;
     background-position: center;
@@ -1590,9 +1633,9 @@ aside.services .list-group-item:hover .fa{
     font-size: 1.4rem;
 }
 
-.contact-left{ 
+.contact-left{
     background-image: url("../img/images/thumb3.jpg");
-    height: 100%; 
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1602,22 +1645,22 @@ aside.services .list-group-item:hover .fa{
     z-index: 2;
 }
 
-.contact-information{ 
+.contact-information{
     color: #FFF;
     z-index: 1;
     position: relative;
 }
 
-.contact-information h2{ 
+.contact-information h2{
     color: #FFF;
 }
 
-.contact-information p{ 
+.contact-information p{
     color: #FFF;
 }
 
 .contact-left:before {
-  height: 100%; 
+  height: 100%;
   content: '';
   position: absolute;
   top: 0;
@@ -1749,7 +1792,7 @@ select.form-control:focus::-ms-value {
 }
 
 p.address{
-    position: relative; 
+    position: relative;
     margin-bottom: 10px;
     background: transparent;
     width: 100%;
@@ -1757,7 +1800,7 @@ p.address{
 
 p.address:before{
     content: "\f041";
-    font-family: FontAwesome;   
+    font-family: FontAwesome;
     margin-right: 15px;
     font-size: 20px;
 }
@@ -1771,20 +1814,20 @@ p.phone{
 
 p.phone:before{
     content: "\f095";
-    font-family: FontAwesome;   
+    font-family: FontAwesome;
     margin-right: 10px;
     font-size: 20px;
 }
 
 p.email{
-    position: relative;  
+    position: relative;
     background: transparent;
     width: 100%;
 }
 
 p.email:before{
     content: "\f0e0";
-    font-family: FontAwesome;   
+    font-family: FontAwesome;
     margin-right: 10px;
     font-size: 20px;
 }
@@ -1809,7 +1852,7 @@ p.email:before{
 
 .social-contact a:hover {
     text-decoration: none;
-    color: #9BC53D;
+    color: #059fff;
 }
 
 .social-contact a:active {
@@ -1856,8 +1899,8 @@ p.email:before{
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
-  border-radius: 5px;  
-  background-color: #9BC53D;    
+  border-radius: 5px;
+  background-color: #059fff;
 }
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
@@ -1881,7 +1924,7 @@ p.email:before{
   .cd-top {
     right: 20px;
     bottom: 20px;
-  } 
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1906,11 +1949,11 @@ p.email:before{
 }
 
 .team-card-3 h4{
-    margin: 15px 0px 5px 0px;   
+    margin: 15px 0px 5px 0px;
 }
 
 .team-card-3 p{
-    margin-bottom: 0px;   
+    margin-bottom: 0px;
 }
 
 .team-photo img{
@@ -2046,7 +2089,7 @@ button.mfp-arrow, .mfp-counter {
   overflow: hidden;
   position: fixed;
   background: #0b0b0b;
-  opacity: 0.9; 
+  opacity: 0.9;
 }
 
 .mfp-wrap {
@@ -2084,7 +2127,7 @@ button.mfp-arrow, .mfp-counter {
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 1045; 
+  z-index: 1045;
 }
 
 .mfp-inline-holder .mfp-content,
@@ -2280,6 +2323,15 @@ button::-moz-focus-inner {
     height: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #000; }
+		.mfp-iframe-scaler #map {
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+			background: #000; }
 
 /* Main image in popup */
 img.mfp-img {
@@ -2441,7 +2493,7 @@ img.mfp-img {
 }
 
 .nav-pills a {
-    border: solid 2px #9BC53D;
+    border: solid 2px #059fff;
     padding: 8px 20px;
     border-radius: 30px;
 }
@@ -2450,15 +2502,15 @@ img.mfp-img {
     color: #333;
     margin-right: 10px;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;  
+    font-size: 15px;
     transition: 0.3s;
-    border: solid 2px #9BC53D;
+    border: solid 2px #059fff;
     padding: 8px 20px;
     border-radius: 5px;
 }
 
 .nav >li > a:focus, .nav> li > a:hover {
-    background: #9BC53D;
+    background: #059fff;
     color: #FFF;
 }
 
@@ -2488,8 +2540,8 @@ figure {
    	13. COUNTER.
    ========================================================================== */
 .counter-parallax{
-    background-image: url("../img/images/parallax-bg.jpg");
-    height: 400px; 
+    background-image: url("../img/background.jpg");
+    height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -2531,7 +2583,7 @@ figure {
 }
 
 .main-gallery{
-  margin: 30px 0px 45px 0px; 
+  margin: 30px 0px 45px 0px;
 }
 
 .gallery-cell {
@@ -2571,7 +2623,7 @@ p.quote{
 h3.autor{
     text-align: center;
     line-height: 2;
-    color: #9BC53D;
+    color: #059fff;
     margin: 5px 0px;
 }
 
@@ -2581,7 +2633,7 @@ h6.testimonial-title{
 }
 
 .flickity-page-dots .dot.is-selected {
-  background: #9BC53D;
+  background: #059fff;
 }
 
 .testimonials{
@@ -2604,14 +2656,14 @@ h6.testimonial-title{
 }
 
 .flickity-viewport{
-    overflow: hidden; 
-    position: relative; 
+    overflow: hidden;
+    position: relative;
     height: 100%;
 }
 
 .flickity-slider{
-    position: absolute; 
-    width: 100%; 
+    position: absolute;
+    width: 100%;
     height: 100%;
 }
 
@@ -2723,7 +2775,7 @@ h6.testimonial-title{
     width: 20px;
     height: 20px;
     margin: 0 8px;
-    background: #FFF; 
+    background: #FFF;
     border-radius: 50%;
     filter: alpha(opacity=25);
     opacity: 0.25;
@@ -2772,7 +2824,7 @@ figure.footer-logo img{
     background-color: transparent;
     border: 1px solid rgba(242, 242, 242);
     font-size: 13px;
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif;
     color: #FFF;
     border-top: 0;
     border-right: 0;
@@ -2792,7 +2844,7 @@ figure.footer-logo img{
 
 .footer-col .list-group-item a:hover {
     text-decoration: none;
-    color: #9BC53D;
+    color: #059fff;
 }
 
 .footer-col .list-group-item a:active {
@@ -2844,13 +2896,13 @@ figure.footer-logo img{
   	letter-spacing: 1px;
   	text-indent: 5%;
   	font-size: 12px;
-	font-family: 'Poppins', sans-serif;  
+	font-family: 'Poppins', sans-serif;
 }
 
 .newsletter-box .button {
   	width: 30%;
   	height: 38px;
-  	background-color: #9BC53D;
+  	background-color: #059fff;
   	border: none;
   	border-radius: 0 5px 5px 0;
   	font-family: inherit;
@@ -2860,7 +2912,7 @@ figure.footer-logo img{
   	cursor: pointer;
   	color: #FFF;
   	font-size: 12px;
-	font-family: 'Poppins', sans-serif;  
+	font-family: 'Poppins', sans-serif;
 }
 
 p.cursive{
@@ -2874,7 +2926,7 @@ hr.footer{
 }
 
 .copytight{
-    float: left; 
+    float: left;
 }
 
 .copytight p{
@@ -2919,8 +2971,8 @@ hr.footer{
 }
 
 .icon-fa:hover{
-    background: #9BC53D;
-	border: solid 1px #9BC53D;
+    background: #059fff;
+	border: solid 1px #059fff;
 }
 
 /* ==========================================================================
@@ -2938,7 +2990,7 @@ hr.footer{
 
 #loader {
   animation: animate 1.5s linear infinite;
-  clip: rect(0, 80px, 80px, 40px); 
+  clip: rect(0, 80px, 80px, 40px);
   height: 80px;
   width: 80px;
   position: absolute;
@@ -2946,10 +2998,10 @@ hr.footer{
   top: calc(50% - 40px);
 }
 @keyframes animate {
-  0% { 
+  0% {
     transform: rotate(0deg)
   }
-  100% { 
+  100% {
     transform: rotate(220deg)
   }
 }
@@ -2957,21 +3009,21 @@ hr.footer{
   animation: animate2 1.5s ease-in-out infinite;
   clip: rect(0, 80px, 80px, 40px);
   content:'';
-  border-radius: 50%; 
+  border-radius: 50%;
   height: 80px;
   width: 80px;
-  position: absolute; 
-} 
+  position: absolute;
+}
 @keyframes animate2 {
   0% {
     box-shadow: inset #14213D 0 0 0 17px;
     transform: rotate(-140deg);
   }
   50% {
-    box-shadow: inset #9BC53D 0 0 0 2px;
+    box-shadow: inset #059fff 0 0 0 2px;
   }
   100% {
-    box-shadow: inset #9BC53D 0 0 0 17px;
+    box-shadow: inset #059fff 0 0 0 17px;
     transform: rotate(140deg);
   }
 }
