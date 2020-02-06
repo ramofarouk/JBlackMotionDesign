@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="Quickdev">
-  <link href="{{ asset('Frontend/img/logo.jpg')}}" rel="shortcut icon">
+  <link href="{{ asset('Frontend/img/logo.png')}}" rel="shortcut icon">
   <link rel="stylesheet" href="{{ asset('Frontend/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ asset('Frontend/css/navbar.css')}}">
   <link rel="stylesheet" href="{{ asset('Frontend/css/stylesheet.css')}}">

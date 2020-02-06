@@ -68,7 +68,7 @@ Accueil
           <h6>Votre satisfaction, notre priorité</h6>
           <h2>J-BlackMotionDesign</h2>
           <hr class="left">
-          <p>J-BlackMotionDesign est une startup dans le domaine informatique, créé le 01 Janvier 2020.
+          <p>J-BlackMotionDesign est une startup dans le domaine informatique, créé le 02 Février 2019.
              L’entreprise se spécialise dans la conception graphique, graphisme, photographie, production vidéo professionnelle
              et les solutions Internet avancées telles que la conception de sites Internet
               et d’applications mobiles, nous sommes aussi dans la fourniture de matériels de création graphique et informatique.</p>
@@ -179,7 +179,7 @@ Accueil
       <div class="main-gallery">
         <div class="gallery-cell">
           <div class="testimonial-section">
-            <div class="avatar"><img src="{{ asset('Frontend/img/images/avatar1.jpg')}}" alt=""></div>
+            <div class="avatar"><img src="{{ asset('Frontend/img/avatar.png')}}" alt=""></div>
             <h3 class="autor">Jerôme DJANTA</h3>
             <h6 class="testimonial-title">Graphique fortement recommandé!</h6>
             <p class="quote">"J'ai été très ravi d'avoir collaboré sur un projet avec <b>J-BlackMotionDesign</b>.Cette société respecte toutes les étapes pour la bonne exécution d'un projet.Je vous le recommande! Merci"</p>
@@ -187,15 +187,15 @@ Accueil
         </div>
         <div class="gallery-cell">
           <div class="testimonial-section">
-            <div class="avatar"><img src="{{ asset('Frontend/img/images/avatar5.jpg')}}" alt=""></div>
-            <h3 class="autor">Joan Doe</h3>
+            <div class="avatar"><img src="{{ asset('Frontend/img/avatar.png')}}" alt=""></div>
+            <h3 class="autor">Zavdièl GBOGBO</h3>
             <h6 class="testimonial-title">DG de Metamorphoo Consulting</h6>
             <p class="quote">"<b>J-BlackMotionDesign</b> est une structure qui a une équipe très compétente! Je leur ai demandé de concevoir un site pour moi et j'ai été très satisfait du travail rendu!"</p>
           </div>
         </div>
         <div class="gallery-cell">
           <div class="testimonial-section">
-            <div class="avatar"><img src="{{ asset('Frontend/img/images/avatar3.jpg')}}" alt=""></div>
+            <div class="avatar"><img src="{{ asset('Frontend/img/omar.jpg')}}" alt=""></div>
             <h3 class="autor">Omar Farouk KOUGBADA</h3>
             <h6 class="testimonial-title">Développeur d'applications et CEO de KOFCORPORATION</h6>
             <p class="quote">"Ah, <b>J-BlackMotionDesign</b>, une Startup digitale pas comme toutes les autres! Cette société sait vraiment faire les choses bien et travailler avec eux est une grande aventure pour moi!"</p>

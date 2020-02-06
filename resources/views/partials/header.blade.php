@@ -13,7 +13,7 @@
 <header>
   <div class="container">
     <div class="header-left">
-      <figure class="brand" ><a href="/"><img src="{{ asset('Frontend/img/logo.jpg')}}" alt=""></a></figure>
+      <figure class="brand" ><a href="/"><img src="{{ asset('Frontend/img/logo.png')}}" alt=""></a></figure>
     </div>
     <div class="top-location">
       <div class="address">
@@ -38,7 +38,7 @@
 <nav>
   <div class="container">
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html"><div class="logo-brand"><img src="{{ asset('Frontend/img/logo.jpg')}}" alt=""></div></a>
+      <a class="navbar-brand" href="/"><div class="logo-brand"><img src="{{ asset('Frontend/img/logo.png')}}" alt=""></div></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

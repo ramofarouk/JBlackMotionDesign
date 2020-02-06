@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col-lg-4">
         <div class="footer-col">
-          <figure class="footer-logo"><a href="index.html"><img src="{{ asset('Frontend/img/logo.jpg')}}" alt=""></a></figure>
-          <p>J-BlackMotionDesign est une startup dans le domaine informatique, créé le 01 Janvier 2020. L’entreprise multidisciplinaire se spécialise dans la conception graphique, la conception de sites Internet ...</p>
+          <figure class="footer-logo"><a href="index.html"><img src="{{ asset('Frontend/img/logo.png')}}" alt=""></a></figure>
+          <p>J-BlackMotionDesign est une startup dans le domaine informatique, créé le 02 Février 2019. L’entreprise multidisciplinaire se spécialise dans la conception graphique, la conception de sites Internet ...</p>
           <p><a class="btn btn-custom" href="/qui-sommes-nous" role="button">LIRE PLUS</a></p>
         </div>
       </div>
@@ -41,7 +41,7 @@
     <hr class="footer">
     <div class="bottom-footer">
       <div class="copytight">
-        <p>Powered By <a target="_blank" href="https://www.omarfaroukk.com">Omar Farouk</a></p>
+        <p>Copyright &copy; 2019 J-BlackMotionDesign Tous droits reservés. Powered By <a target="_blank" href="https://www.omarfaroukk.com">Omar Farouk</a></p>
       </div>
       <div class="social-footer">
         <div class="social-items"><a href="#"><div class="icon-fa"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></div>

@@ -17,10 +17,15 @@ Contact
       <div class="col-lg-5 contact-left">
         <div class="contact-information">
           <h2>Nous joindre</h2>
-          <p>Laissons-nous un message et nous vous répondrons dans un délai de 24heures.</p>
+          <p>Laissez-nous un message et nous vous répondrons dans un délai de 24heures.</p>
           <hr class="contact">
-          <p class="address">Agoè-assiyéyé à côté de l'église des Assembleés de Dieu.</p>
-          <p class="phone">+228 70522340</p>
+          <p>
+            Lundi - Vendredi : 8h à 19h<br>
+            Samedi : 8h à 16h
+          </p>
+          <hr class="contact">
+          <p class="address">Agoè-assiyéyé à côté de l'église des Assembleés de Dieu 13 BP 459.</p>
+          <p class="phone">+228 70522340 - +228 97984224</p>
           <p class="email">info@j-blackmotiondesign.com</p>
           <hr class="contact">
           <div class="social-contact"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
@@ -61,7 +66,7 @@ Contact
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row" style="margin-top:5%;">
       <div id="map" style="width:100%;height:400px;"></div>
     </div>
   </div>
